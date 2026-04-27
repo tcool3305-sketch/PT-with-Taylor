@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-<title>TRAINDERIVE</title>
+<title>TRAINTAYLOR</title>
 
 <!-- PWA -->
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#ede8df">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="TRAINDERIVE">
+<meta name="apple-mobile-web-app-title" content="TRAINTAYLOR">
 <link rel="apple-touch-icon" href="icon-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
@@ -66,7 +66,7 @@ html,body { height:100%; background:var(--surf); color:var(--text); font-family:
   background-attachment: fixed;
 }
 #s-login::before {
-  content:'TRAINDERIVE'; position:absolute; font-family:var(--disp);
+  content:'TRAINTAYLOR'; position:absolute; font-family:var(--disp);
   font-size:clamp(80px,18vw,220px); color:rgba(0,0,0,.04);
   top:50%; left:50%; transform:translate(-50%,-50%);
   pointer-events:none; user-select:none; letter-spacing:.05em;
@@ -880,7 +880,7 @@ html { touch-action: manipulation; }
 <!-- ═══ LOGIN ═══════════════════════════════════════ -->
 <div id="s-loading" class="screen" style="flex-direction:column;align-items:center;justify-content:center;min-height:100dvh;background:var(--bg);padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);">
   <div style="font-family:var(--disp);font-size:2rem;letter-spacing:.1em;margin-bottom:1.2rem;">
-    <span style="color:var(--accent)">TRAIN</span><span style="color:var(--gold)">DERIVE</span>
+    <span style="color:var(--accent)">TRAIN/</span><span style="color:var(--gold)">/TAYLOR</span>
   </div>
   <div class="spinner" style="width:28px;height:28px;margin:0 0 .8rem 0;"></div>
   <div style="font-family:var(--mono);font-size:.62rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted2)">Loading workouts…</div>
@@ -888,8 +888,8 @@ html { touch-action: manipulation; }
 
 <div id="s-login" class="screen active">
   <div class="login-box">
-    <div class="login-logo"><span style="color:var(--accent)">TRAIN</span><span style="color:var(--gold)">DERIVE</span></div>
-    <div class="login-sub">By Frank Nguyen</div>
+    <div class="login-logo"><span style="color:var(--accent)">TRAIN</span><span style="color:var(--gold)">TAYLOR</span></div>
+    <div class="login-sub">By Taylor Cooley</div>
     <div class="fld"><label>Email</label><input type="email" id="l-email" placeholder="athlete@example.com" autocomplete="email"></div>
     <div class="fld"><label>Password</label><div class="pw-wrap"><input type="password" id="l-pass" placeholder="••••••••" autocomplete="current-password"><button class="pw-eye" type="button" onclick="togglePw(this)" tabindex="-1">👁</button></div></div>
     <div class="l-err" id="l-err"></div>
@@ -901,7 +901,7 @@ html { touch-action: manipulation; }
 <!-- ═══ ATHLETE APP ══════════════════════════════════ -->
 <div id="s-app" class="screen">
   <header class="app-hd">
-    <div class="hd-logo"><span style="color:var(--accent)">TRAIN</span><span style="color:var(--gold)">DERIVE</span></div>
+    <div class="hd-logo"><span style="color:var(--accent)">TRAIN</span><span style="color:var(--gold)">TAYLOR</span></div>
     <div class="hd-right">
       <!-- Notification bell -->
       <div style="position:relative">
@@ -969,7 +969,7 @@ html { touch-action: manipulation; }
 <!-- ═══ ADMIN PANEL ══════════════════════════════════ -->
 <div id="s-admin" class="screen">
   <header class="adm-hd">
-    <div class="adm-logo"><span style="color:var(--accent)">TRAIN</span><span style="color:var(--gold)">DERIVE</span> <span>ADMIN</span></div>
+    <div class="adm-logo"><span style="color:var(--accent)">TRAIN</span><span style="color:var(--gold)">TAYLOR</span> <span>ADMIN</span></div>
     <div class="hd-right">
       <span class="hd-name" id="adm-hd-name"></span>
       <div class="adm-notif-wrap">
